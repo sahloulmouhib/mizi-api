@@ -1,0 +1,36 @@
+{
+  "global": {
+    "invalid_id": "Please Provide a valid ID",
+    "internal": "Something went wrong! "
+  },
+  "auction": {
+    "not_found": "No auction found with that ID",
+    "inactive": "Auction has finished see other auctions"
+  },
+  "bid": {
+    "low": "You need to bid higher than 10% of the existing bid",
+    "owner": "You cannot bid on your own auction"
+  },
+  "rated_sellers": {
+    "self": "You cannot rate yourself"
+  },
+  "image": {
+    "required": "Only Images are allowed to be uploaded"
+  },
+  "auth": {
+    "missing": "Please provide email and password",
+    "incorrect": "Incorrect email or password",
+    "required": "You are not logged in !",
+    "password_changed": "User recently changed password! please log in again",
+    "forbidden": "You do not have permission to perform this action",
+    "not_found": "There is no user with email address",
+    "reset_mail": "There is an error sending this email try again",
+    "valid_password": "Password is incorrect",
+    "update_pass": "This route is not for password update. Please use /updateMyPassword"
+  },
+  "token": {
+    "expired": "The user belonging to this token no longer exists",
+    "invalid_or_exppired": "Token is invalid or has expires",
+    "invalid": "Invalid Token please login again"
+  }
+}

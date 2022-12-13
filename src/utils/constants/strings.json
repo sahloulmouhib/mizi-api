@@ -1,0 +1,185 @@
+{
+  "errorMessages": {
+    "global": {
+      "invalid_id": "Please Provide a valid ID",
+      "internal": "Something went wrong! "
+    },
+    "auction": {
+      "not_found": "No auction found with that ID",
+      "inactive": "Auction has finished see other auctions"
+    },
+    "bid": {
+      "low": "You need to bid higher than 10% of the existing bid",
+      "owner": "You cannot bid on your own auction"
+    },
+    "mouhib": { "lol": "ekhdem" },
+    "rated_sellers": {
+      "self": "You cannot rate yourself"
+    },
+    "reported_users": {
+      "self": "You cannot rate report yourself"
+    },
+    "image": {
+      "required": "Only Images are allowed to be uploaded"
+    },
+    "auth": {
+      "missing": "Please provide email and password",
+      "incorrect": "Incorrect email or password",
+      "required": "You are not logged in !",
+      "password_changed": "User recently changed password! please log in again",
+      "forbidden": "You do not have permission to perform this action",
+      "not_found": "There is no user with email address",
+      "reset_mail": "There is an error sending this email try again",
+      "valid_password": "Password is incorrect",
+      "update_pass": "This route is not for password update. Please use /updateMyPassword"
+    },
+    "token": {
+      "expired": "The user belonging to this token no longer exists",
+      "invalid_or_exppired": "Token is invalid or has expires",
+      "invalid": "Invalid Token please login again"
+    }
+  },
+  "validationMessage": {
+    "user": {
+      "firstName": {
+        "required": "Please provide a first name",
+        "maxLength": "A first name length must be at max 20 caracters",
+        "minLength": "A first name length must be at min 3 caracters"
+      },
+      "lastName": {
+        "required": "Please provide a last name ",
+        "maxLength": "A last name length must be at max 20 caracters",
+        "minLength": "A last name length must be at min 3 caracters"
+      },
+      "birthDate": {
+        "required": "Please provide a birth date ",
+        "max": "You must be older than 18 to sign up"
+      },
+      "phoneNumber": {
+        "required": "Please provide a phone number ",
+        "message": "Please provide a valid Tunisian mobile Number"
+      },
+      "keywords": {
+        "required": "Please provide a prefrence words ",
+        "message": "Please provide a valid preferences words"
+      },
+      "budgetRange": {
+        "required": "Please provide a budget range ",
+        "message": "Please provide a valid budget range"
+      },
+      "email": {
+        "required": "Please provide an email",
+        "message": "Please Provide a valid email"
+      },
+      "passwordConfirm": {
+        "maxLength": "A password length must be at max 16 caracters",
+        "minLength": "A password length must be at max 8 caracters",
+        "required": "Please provide a valid password",
+        "message": "Passwords are not the same"
+      },
+      "ratingsAverage": {
+        "min": "rating must be above 1.0",
+        "max": "A rating must be below 5"
+      }
+    },
+    "auction": {
+      "title": {
+        "required": "Please provide an email",
+        "minLength": "A title length must be at min 3 caracters",
+        "maxLength": "A title length must be at max 40 caracters"
+      },
+      "description": {
+        "required": "Please a provide a description",
+        "minLength": "A decription length must be at min 3 caracters",
+        "maxLength": "A decription length must be at max 350 caracters"
+      },
+      "user": {
+        "required": "Auction must belong to a seller"
+      },
+      "startingDate": {
+        "required": "Please provide a starting date for the auction"
+      },
+      "closingDate": {
+        "required": "Please provide a closing date for the auction",
+        "message": "Maximum closing date is 90 days from starting date"
+      },
+      "startingPrice": {
+        "required": "Please provide a starting price"
+      },
+      "preferredPrice": {
+        "required": "Please provide a preferred price",
+        "message": "Please provide a valid preferred price"
+      },
+      "closingPrice": {
+        "required": "Please provide a closing date for the auction",
+        "message": "Please provide a valid closing date"
+      },
+      "category": {
+        "required": "Auction must belong to a category"
+      }
+    },
+    "bid": {
+      "price": {
+        "required": "Please provide a bidding price"
+      },
+      "user": {
+        "required": "Bid must belong to a user"
+      },
+      "auction": {
+        "required": "Bid must belong to an auction"
+      }
+    },
+    "favoriteAuction": {
+      "user": {
+        "required": "A favorite auction must belong to a user"
+      },
+      "auction": {
+        "required": "A favourite auction must belong to an auction"
+      },
+      "date": { "required": "Please provide a favorite auction date" }
+    },
+    "ratedSeller": {
+      "seller": {
+        "required": "There must be a rated seller"
+      },
+      "user": {
+        "required": "There must be a user who is rating a seller"
+      },
+      "rating": {
+        "min": "rating must be above 1.0",
+        "max": "A rating must be below 5",
+        "required": "A seller rating must have a rating"
+      }
+    },
+    "reportedUser": {
+      "reporter": {
+        "required": "A report must have a reporter"
+      },
+      "reportedUser": {
+        "required": "A report must have a reported user"
+      },
+      "message": {
+        "maxlength": "A report must have at max 500 caracters",
+        "minlength": "A report must have at min 30 caracters",
+        "required": "A report must have a reason"
+      },
+      "title": {
+        "required": "Please provide a report title",
+        "minLength": "A title length must be at min 3 caracters",
+        "maxLength": "A title length must be at max 40 caracters"
+      }
+    },
+    "interestedAuction": {
+      "user": {
+        "required": "An interested auction must belong to a user"
+      },
+      "auction": {
+        "required": "A interested auction must belong to an auction"
+      },
+      "type": {
+        "required": "A interested auction must have a type"
+      }
+    }
+  },
+  "limiter": "Too many request from this IP, please try agin in an hour"
+}
